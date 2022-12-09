@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Monument Extended";
+    src: local("fonts/MonumentExtended-Regular.otf");
+    src: local("fonts/MonumentExtended-Ultrabold.otf");
+}
+
+body {
+    margin: 0;
+    background: red;
+}
+
+h1 {
+    font-family: "Monument Extended";
+}
+
+img {
+    max-width: 220px;
+}
