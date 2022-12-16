@@ -4,9 +4,16 @@
     src: local("fonts/MonumentExtended-Ultrabold.otf");
 }
 
+header {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
 body {
     margin: 0;
     background: red;
+    color: white;
 }
 
 h1 {
@@ -15,4 +22,9 @@ h1 {
 
 img {
     max-width: 220px;
+}
+
+.perso img {
+    display: flex;
+    align-items: center;
 }
